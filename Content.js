@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const ContentSchema = new mongoose.Schema({
+export const ContentSchema = new mongoose.Schema({
   contentModel: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'content_model',

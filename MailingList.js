@@ -1,6 +1,6 @@
 import mongoose, { Mongoose } from 'mongoose'
 
-const MailingListSchema = new Mongoose.Schema({
+export const MailingListSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,

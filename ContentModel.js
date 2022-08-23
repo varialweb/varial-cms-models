@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const ContentModelSchema = new mongoose.Schema({
+export const ContentModelSchema = new mongoose.Schema({
   name: {
     value: String,
     singular: String,
