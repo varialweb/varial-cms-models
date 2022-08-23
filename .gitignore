@@ -1,0 +1,19 @@
+node_modules
+
+/.cache
+/build
+/public/build
+.env
+env.json
+env.json*
+
+/app/styles/app.css
+
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
